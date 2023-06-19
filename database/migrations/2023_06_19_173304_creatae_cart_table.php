@@ -14,6 +14,12 @@ return new class extends Migration
     public function up()
     {
         //
+        Schema::create('cart', function (Blueprint $table) {
+            $table->id();
+            $table->integer('product_id');
+            $table->integer('user_id');
+            $table->timestamps();
+        });
     }
 
     /**
