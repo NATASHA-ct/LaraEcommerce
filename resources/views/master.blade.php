@@ -18,5 +18,93 @@
    
     {{View::make('footer')}}
 </body>
+<style>
+    /* layout */
+  
+    html {
+    scroll-behavior: smooth;
+    width: 100%;
+    box-sizing: border-box;
+    }
 
+    a{
+        text-decoration: none;
+    }
+
+    body {
+    margin: 0;
+    height: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    }
+    .custom-login{
+        height: 500px;
+        padding-top: 100px;
+    }
+    img.slider-img{
+        height: 400px !important
+    }
+
+    .slider-text{
+        color: black;
+    }
+    .custom-product{
+        margin-bottom: 5em;
+        height: 600px;
+    }
+
+    #demo{
+        background-color:#fff;
+    }
+
+    .slider-text{
+      background-color: #e3e0e621 !important;
+      width: 50%;   
+      margin-left: 35%;
+    }
+
+    .trend-title{
+      text-align: center;
+      margin: 2em 0;
+    }
+
+    .trending-image{
+        height: 100px;
+    }
+    .trening-item{
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper{
+       display: flex;
+       justify-content: space-evenly;
+ 
+    }
+
+    .trend-prod-name{
+        color: black;
+        text-decoration: none;
+    }
+    .detail-img{
+        height: 200px;
+    }
+    .search-box{
+        width: 500px !important
+    }
+    .cart-list-devider{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px
+    }
+
+    main{
+        margin-bottom: 3em;
+    }
+</style>
 </html>
