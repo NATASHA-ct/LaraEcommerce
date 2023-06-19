@@ -106,5 +106,16 @@
     main{
         margin-bottom: 3em;
     }
+
+    .cart-custom-product{
+      margin:2em 3em;  
+    }
+
+    .cart-wrapper{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      
+    }
 </style>
 </html>

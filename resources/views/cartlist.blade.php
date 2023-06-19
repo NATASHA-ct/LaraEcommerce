@@ -1,8 +1,8 @@
 @extends('master')
 @section("content")
-<div class="custom-product">
+<div class="cart-custom-product">
      <div class="col-sm-10">
-        <div class="trending-wrapper">
+        <div class="cart-wrapper">
             <h4>Result for Products</h4>
             <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br>
             @foreach($products as $item)
