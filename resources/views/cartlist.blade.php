@@ -3,7 +3,7 @@
 <div class="cart-custom-product">
      <div class="col-sm-10">
         <div class="cart-wrapper">
-            <h4>Result for Products</h4>
+            <h4>Your Cart Products</h4>
             <a class="btn btn-primary" href="ordernow">Order Now</a> <br> <br>
             @foreach($products as $item)
             <div class=" row searched-item cart-list-devider">

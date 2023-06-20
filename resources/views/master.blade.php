@@ -55,6 +55,7 @@
         color: black;
     }
     .custom-product{
+        margin:2em;
         margin-bottom: 5em;
         height: 600px;
     }
