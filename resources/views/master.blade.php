@@ -118,5 +118,9 @@
       flex-direction: column;
       
     }
+    .logs{
+        display:flex;
+        flex-direction: column;
+    }
 </style>
 </html>
